@@ -1,0 +1,31 @@
+{
+  "name": "@xgbuils/pickle-lint-with-gherkin-5-test",
+  "version": "0.0.1",
+  "description": "e2e tests using gherkin@5.1.0 as a parser",
+  "main": "index.js",
+  "bin": {
+    "pickle-lint-with-gherkin-5-test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgbuils/pickle-lint-with-gherkin-5-test.git"
+  },
+  "keywords": [
+    "pickle-lint",
+    "e2e",
+    "test"
+  ],
+  "author": "Xavier Garcia Buils <xgbuils@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xgbuils/pickle-lint-with-gherkin-5-test/issues"
+  },
+  "homepage": "https://github.com/xgbuils/pickle-lint-with-gherkin-5-test#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "diff": "^4.0.1",
+    "gherkin": "5.1.0",
+    "pickle-lint": "git+https://github.com/xgbuils/pickle-lint.git#dev"
+  },
+  "devDependencies": {}
+}

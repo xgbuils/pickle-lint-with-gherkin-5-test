@@ -1,0 +1,8 @@
+node_modules
+stderr.txt
+stdout.txt
+*.origin
+npm-debug.log
+.DS_Store
+.nyc_output/
+coverage
