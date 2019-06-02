@@ -1,6 +1,6 @@
 {
   "name": "@xgbuils/pickle-lint-with-gherkin-5-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "e2e tests using gherkin@5.1.0 as a parser",
   "main": "index.js",
   "bin": {

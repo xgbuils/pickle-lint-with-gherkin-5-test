@@ -7,7 +7,8 @@ const writeFile = promisify(fs.writeFile);
 const path = require('path');
 
 const replaceDirname = (content) => {
-  return content.replace(new RegExp(__dirname, 'g'), '/path/to/tests');
+  const cwdParent = process.cwd().split(path.sep).slice(0, -1).join(path.sep)
+  return content.replace(new RegExp(cwdParent, 'g'), '/path/to');
 };
 
 const appendDiffs = ({chunks, removed, added}) => {
